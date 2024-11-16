@@ -1,0 +1,28 @@
+{
+  "name": "wj_core-components",
+  "version": "1.0.4",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files && cpx 'src/**/*.d.ts' dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "cpx": "^1.5.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
