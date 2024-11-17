@@ -6,3 +6,5 @@ export const MeuComponente = ({ titulo, descricao, className }) => (
     {descricao && <p>{descricao}</p>}
   </div>
 )
+
+export default MeuComponente;
