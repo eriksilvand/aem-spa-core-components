@@ -1,1 +1,1 @@
-export { default as MeuComponente } from './MeuComponente';
+export * from './MeuComponente';
