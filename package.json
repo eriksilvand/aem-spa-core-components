@@ -1,12 +1,11 @@
 {
   "name": "wj_core-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "module": "index.js",
   "scripts": {
-    "build": "babel src --out-dir dist --copy-files && cpx 'src/**/*.d.ts' dist"
+    "build": "babel . --out-dir dist --copy-files && cpx './**/*.d.ts' dist"
   },
   "keywords": [],
   "author": "",
